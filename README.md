@@ -39,12 +39,15 @@ click-middle = /home/$USER/.config/polybar/vpn_menu.sh
 
 8. Add `nord` to your module section in your polybar config (e.g., modules-right, modules-center, etc)
 
-## ⚙️ Usage
+# ⚙️ Usage
 click-right: Automatically connects to the best server available
 click-left: Disconnects
 click-middle: Opens `rofi` to select countries, when you select a country, it will give you all the available cities to connect to
 
 > NOTE: The module can only show country abbreviation since it's not currently possible to display emojis on polybar (doesn't support compound emojis), but there is a JSON file in the repo that has the flags for all the available countries. If you'd like to use this module in other statusbars, make sure it supports flag emojis and then switch `vpn_abbr.json` with `vpn_flags.json`.
+
+## 📹 Preview
+https://github.com/user-attachments/assets/d5c83104-a7cb-4ecd-896b-e4f6a5c540fe
 
 # ☕ Support
 If you liked this project, please consider giving it a star and sharing it with other people!
