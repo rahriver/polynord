@@ -17,7 +17,7 @@ mapfile -t menu < <(
 echo "Loaded ${#menu[@]} countries" >>"$LOG"
 
 country=$(printf '%s\n' "${menu[@]}" \
-          | rofi -dmenu -theme nord -i -p "VPN country:" 2>>"$LOG" \
+          | rofi -dmenu -i -p "VPN country:" 2>>"$LOG" \
           | awk -F '|' '{print $2}')
 echo "Chosen country: $country" >>"$LOG"
 [ -z "$country" ] && exit
@@ -27,7 +27,7 @@ echo "Found ${#cities[@]} cities" >>"$LOG"
 [ ${#cities[@]} -eq 0 ] && exit
 
 city=$(printf '%s\n' "${cities[@]}" \
-       | rofi -dmenu -theme nord -i -p "City in $(grep "|$country$" <<<"${menu[@]}" | cut -d'|' -f1):" 2>>"$LOG")
+       | rofi -dmenu -i -p "City in $(grep "|$country$" <<<"${menu[@]}" | cut -d'|' -f1):" 2>>"$LOG")
 echo "Chosen city: $city" >>"$LOG"
 [ -z "$city" ] && exit
 
