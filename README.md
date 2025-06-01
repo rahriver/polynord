@@ -1,13 +1,13 @@
 # 🏔️ PolyNord
 > A polybar module for NordVPN to easiliy connet to the available countries and cities.
 
-# Dependencies
+# 💻 Dependencies
 - `jq` - For JSON handling
 - `polybar`
 - `nordvpn-bin`
 - `rofi` - To easily choose between servers
 
-## Libraries Used
+## 📦 Libraries Used
 - `os`
 - `sys`
 - `json`
@@ -17,7 +17,7 @@
 - `select`
 - `contextlib`
 
-# Installation
+# 🌐 Installation
 1. First you should install the cli version of [NordVPN](https://aur.archlinux.org/packages/nordvpn-bin)
 2. `groupadd -r nordvpn`, `usermod -aG nordvpn $USER` | [Arch Wiki](https://wiki.archlinux.org/title/NordVPN)
 3. Enable the nordvpn.service using `systemctl enable nordvpn.service`
@@ -39,10 +39,10 @@ click-middle = /home/$USER/.config/polybar/vpn_menu.sh
 
 8. Add `nord` to your module section in your polybar config (e.g., modules-right, modules-center, etc)
 
-## Usage
+## ⚙️ Usage
 click-right: Automatically connects to the best server available
 click-left: Disconnects
 click-middle: Opens `rofi` to select countries, when you select a country, it will give you all the available cities to connect to
 
 # ☕ Support
-If you liked the project, please consider giving it a star and sharing it with other people!
+If you liked this project, please consider giving it a star and sharing it with other people!
