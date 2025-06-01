@@ -4,7 +4,7 @@
 # Dependencies
 - `jq` - For JSON handling
 - `polybar`
-- `nordvpn`
+- `nordvpn-bin`
 - `rofi` - To easily choose between servers
 
 ## Libraries Used
