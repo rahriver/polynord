@@ -1,3 +1,5 @@
+![polynord](https://github.com/user-attachments/assets/f625ce45-f5bb-46e8-a35b-bc1c127830ef)
+
 # 🏔️ PolyNord
 > A polybar module for NordVPN to easiliy connet to the available countries and cities.
 
