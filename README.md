@@ -9,6 +9,8 @@
 - `nordvpn-bin`
 - `rofi` - To easily choose between servers
 
+Requires the [NordVPN Linux app](https://support.nordvpn.com/hc/en-us/articles/20196094470929) with `nordvpnd` running and an account logged in. *NordVPN and Nord Security logos are trademarks of Nord Security. This extension is an independent project and is not affiliated with, sponsored by, or endorsed by Nord Security.*
+
 ## 📦 Libraries Used
 - `os`
 - `sys`
@@ -53,3 +55,5 @@ https://github.com/user-attachments/assets/d5c83104-a7cb-4ecd-896b-e4f6a5c540fe
 
 # ☕ Support
 If you liked this project, please consider giving it a star and sharing it with other people!
+
+
